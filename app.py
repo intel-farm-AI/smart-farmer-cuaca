@@ -87,7 +87,7 @@ except Exception as e:
 st.subheader("🌱 Prediksi Penyakit Tanaman")
 
 try:
-    model = load_model("plant_disease_model.h5")
+    model = load_model("plant_disease_model")
     st.success("✅ Model berhasil dimuat.")
 except Exception as e:
     st.error(f"❌ Gagal memuat model: {e}")
@@ -121,7 +121,6 @@ if image and model:
             "Jamur Putih", "Embun Tepung", "Busuk Buah", "Virus Daun Kuning",
             "Busuk Akar", "Bercak Daun", "Kutu Daun", "Kerak Daun", "Hama Ulat", "Lainnya"
         ]
-
         solusi = {
             "Sehat": "✅ Tanaman dalam kondisi baik.\n\n1️⃣ Lanjutkan penyiraman rutin.\n2️⃣ Pastikan tanaman mendapatkan sinar matahari yang cukup.\n3️⃣ Bersihkan gulma dan sampah di sekitar tanaman secara berkala.",
             "Busuk Daun": "⚠️ Daun mengalami pembusukan.\n\n1️⃣ Pangkas daun yang busuk dan buang jauh dari kebun.\n2️⃣ Semprotkan fungisida sesuai dosis anjuran.\n3️⃣ Kurangi penyiraman berlebih dan tingkatkan sirkulasi udara.\n4️⃣ Pastikan area sekitar tanaman tidak terlalu lembab.",
