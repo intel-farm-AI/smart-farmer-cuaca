@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 from streamlit_js_eval import streamlit_js_eval
-from keras.layers import TFSMLayer
+from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
 import datetime
@@ -87,7 +87,7 @@ except Exception as e:
 st.subheader("🌱 Prediksi Penyakit Tanaman")
 
 try:
-    model = TFSMLayer("plant_disease_model", call_endpoint="serve")
+    model = load_model("plant_disease_model.h5")
     st.success("✅ Model berhasil dimuat.")
 except Exception as e:
     st.error(f"❌ Gagal memuat model: {e}")
@@ -113,7 +113,7 @@ if image and model:
         img_array = np.array(img) / 255.0
         img_array = np.expand_dims(img_array, axis=0)
 
-        predictions = model(img_array)
+        predictions = model.predict(img_array)
         predicted_class = int(np.argmax(predictions, axis=1)[0])
 
         labels = [
@@ -122,7 +122,7 @@ if image and model:
             "Busuk Akar", "Bercak Daun", "Kutu Daun", "Kerak Daun", "Hama Ulat", "Lainnya"
         ]
 
-        solusi = {...}  # [Solusi dictionary tetap sama seperti sebelumnya]
+        solusi = {...}  # Solusi dictionary tetap sama
 
         hasil = labels[predicted_class] if predicted_class < len(labels) else f"Kelas {predicted_class}"
         rekomendasi = solusi.get(hasil, "Tidak ada rekomendasi khusus.")
