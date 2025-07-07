@@ -1,0 +1,7 @@
+streamlit
+streamlit-js-eval
+tensorflow
+pillow
+numpy
+pandas
+requests
