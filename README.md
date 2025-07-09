@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/YOUR_IMAGE_LINK.png" alt="Smart Farmer Banner" width="80%" />
+  <img src="https://i.imgur.com/YOUR_IMAGE_LINK.png](https://github.com/intel-farm-AI/smart-farmer-cuaca/blob/main/Gemini_Generated_Image_clswavclswavclsw.png" alt="Smart Farmer Banner" width="80%" />
   <h1>🌾 Smart Farmer - Cuaca ☁️🤖</h1>
   <p><i>Solusi berbasis AI untuk pertanian cerdas di Indonesia</i></p>
   
