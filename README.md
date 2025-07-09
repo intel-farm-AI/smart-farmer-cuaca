@@ -23,9 +23,9 @@
 
 | Nama | Peran |
 |------|-------|
-| **Alfarizi** | Backend Developer, GitHub Admin |
-| **Sultan** | AI Engineer, Data Modeller |
-| **Salman** | Frontend Developer, Integrasi UI/UX |
+| **Salman** | SMKN 46 Jakarta |
+| **Sultan** | SMKN 1 Karawang |
+| **Habibi** | SMKN 1 Karawang |
 
 ---
 
