@@ -7,5 +7,6 @@ __pycache__/
 venv
 plan.txt
 *.zip
+*.rar
 train_subset_50k
 data
