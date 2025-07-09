@@ -21,7 +21,7 @@
 
 ## 👨‍💻 Tim Pengembang
 
-| Nama | Peran |
+| Nama | Asal Sekolah |
 |------|-------|
 | **Salman** | SMKN 46 Jakarta |
 | **Sultan** | SMKN 1 Karawang |
