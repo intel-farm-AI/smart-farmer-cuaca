@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.vscode/
+.idea/
+venv
+plan.txt
+*.zip
+train_subset_50k
+data
