@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/YOUR_IMAGE_LINK.png](https://github.com/intel-farm-AI/smart-farmer-cuaca/blob/main/Gemini_Generated_Image_clswavclswavclsw.png" alt="Smart Farmer Banner" width="80%" />
+  <img src="https://raw.githubusercontent.com/intel-farm-AI/smart-farmer-cuaca/main/Gemini_Generated_Image_clswavclswavclsw.png" alt="Smart Farmer Banner" width="80%" />
   <h1>🌾 Smart Farmer - Cuaca ☁️🤖</h1>
   <p><i>Solusi berbasis AI untuk pertanian cerdas di Indonesia</i></p>
   
@@ -23,9 +23,9 @@
 
 | Nama | Peran |
 |------|-------|
-| **Salman** | 
-| **Sultan** | 
-| **Habibi** | 
+| **Alfarizi** | Backend Developer, GitHub Admin |
+| **Sultan** | AI Engineer, Data Modeller |
+| **Salman** | Frontend Developer, Integrasi UI/UX |
 
 ---
 
@@ -42,7 +42,7 @@
 
 ## 🖼️ Contoh Tampilan
 
-<img src="https://i.imgur.com/YOUR_UI_IMAGE.png" alt="Smart Farmer UI" width="70%" />
+> *Tambahkan gambar UI/hasil output model di sini jika sudah ada*
 
 ---
 
