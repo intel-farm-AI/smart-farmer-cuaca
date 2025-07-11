@@ -15,11 +15,11 @@ CFG = {
     "history_path": "models/history.json",  # path untuk menyimpan history training
     "img_size": (224, 224),
     "batch_size": 16,
-    "epochs": 3,
+    "epochs": 10,
     "lr": 1e-4,
     "patience": 5,
     "min_lr": 1e-7,
-    "fine_tune_at": 100,  # layer index untuk mulai unfreeze saat fine-tuning
+    "fine_tune_at": 50,  # layer index untuk mulai unfreeze saat fine-tuning
     "fine_tune_epochs": 3,
     "fine_tune_lr": 1e-7,
 }
